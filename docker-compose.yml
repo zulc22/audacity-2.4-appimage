@@ -1,0 +1,6 @@
+services:
+  build-copier:
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./binary:/out
